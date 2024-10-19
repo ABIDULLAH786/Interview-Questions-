@@ -1,8 +1,8 @@
-# Interview-Questions-
+# Interview-Questions
 
 ## About
 
-Welcome to the **JavaScript Interview Questions Repository**, a curated collection of common JavaScript interview questions along with in-depth explanations, examples, and best practices. This repository is designed to help developers of all skill levels, from beginners to seasoned professionals, prepare for JavaScript interviews and strengthen their understanding of core JavaScript concepts.
+Welcome to the **Interview Questions Repository**, a curated collection of common JavaScript interview questions along with in-depth explanations, examples, and best practices. This repository is designed to help developers of all skill levels, from beginners to seasoned professionals, prepare for JavaScript interviews and strengthen their understanding of core JavaScript concepts.
 
 ### Features:
 
