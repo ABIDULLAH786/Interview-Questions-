@@ -1,5 +1,10 @@
-document.getElementById('text').style.display = 'none';
- 
+function hide(){
+
+document.getElementById('text').style.visibility = 'hidden';
+}
+  function show(){
+       document.getElementById('text').style.visibility = 'visible';  
+}
 //  var txt = document.getElementById('text');
 //  function button(){
 //     //
