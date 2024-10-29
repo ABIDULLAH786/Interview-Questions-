@@ -1,16 +1,12 @@
-function hide(){
-
-document.getElementById('text').style.visibility = 'hidden';
+var para = document.getElementById('text');
+var display=0;
+function hideshow(){
+  if(display == 1){
+      para.style.display = 'block';
+      display = 0;
 }
-  function show(){
-       document.getElementById('text').style.visibility = 'visible';  
+else{
+   para.style.display = 'none';
+   display = 1;
 }
-//  var txt = document.getElementById('text');
-//  function button(){
-//     //
-//     // document.getElementById('text').style.display = 'block';
-//     var btn;
-//     if(txt.idName == 'text'){
-//       btn.style.display = 'none';
-//     }
-//  }
+}
