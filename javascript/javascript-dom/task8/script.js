@@ -4,4 +4,15 @@ function txt_color(){
     color[1].style.color = 'lightblue';
 
 
-}
+} 
+
+
+
+
+
+
+
+
+
+
+
