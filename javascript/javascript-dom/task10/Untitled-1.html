@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Button on Click</title>
+    <style>
+        #myButton {
+            padding: 10px 15px;
+            font-size: 16px;
+            background-color: #4CAF50; /* Green */
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            display: none; /* Initially hidden */
+        }
+        #addButton {
+            padding: 10px 15px;
+            font-size: 16px;
+            background-color: #007BFF; /* Blue */
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+<div id="buttonContainer"></div>
+<button id="addButton">Add Button</button>
+
+<script>
+    // Event listener for the "Add Button"
+    document.getElementById('addButton').addEventListener('click', () => {
+        // Check if the new button already exists
+        if (!document.getElementById('myButton')) {
+            // Create a new button
+            const newButton = document.createElement('button');
+            newButton.innerText = 'Click Me!';
+            newButton.id = 'myButton';
+            newButton.style.display = 'inline-block'; // Make it visible
+
+            // Add an event listener to the new button
+            newButton.addEventListener('click', () => {
+                alert('New Button was clicked!');
+            });
+
+            // Append the new button to the container
+            document.getElementById('buttonContainer').appendChild(newButton);
+        } else {
+            alert('The button already exists.');
+        }
+    });
+</script>
+
+</body>
+</html>

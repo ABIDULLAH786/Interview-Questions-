@@ -5,7 +5,7 @@ var fontsize = 15;
     document.getElementById('text').style.fontSize = fontsize + 'px';
   }
 }
-  function decr(){
+  function decr(){ 
     --fontsize;
     if(fontsize >= 14){
     document.getElementById('text').style.fontSize = fontsize + 'px';
